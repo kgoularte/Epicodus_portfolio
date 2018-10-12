@@ -18,13 +18,13 @@ img {
   font-size: 60px;
   font-family: monospace;
 }
-body {
-  background-color: lightgrey;
-}
 .container {
   border: 2px solid black;
   border-bottom: none;
+  bottom: 25px;
   padding: 25px;
+  background-color: lightgrey;
+
 }
 a {
   color: black;
@@ -37,7 +37,22 @@ p {
   text-align: left;
   margin-left: 25px;
 }
-#me {
-  font-size: 20px;
-  text-shadow: 10px 10px 20px white;
+.bg-info {
+  padding: 5px;
+}
+.divbg {
+  background-image: url(../img/back.jpg);
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+}
+.intro {
+  font-size: 25px;
+}
+#insta {
+  box-shadow: 5px 5px 10px white;
 }
