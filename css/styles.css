@@ -37,3 +37,7 @@ p {
   text-align: left;
   margin-left: 25px;
 }
+#me {
+  font-size: 20px;
+  text-shadow: 10px 10px 20px white;
+}
