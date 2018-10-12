@@ -1,3 +1,8 @@
+img {
+  margin: 10px;
+    box-shadow: 10px 10px 25px grey;
+
+}
 .col-md-12 img {
   box-shadow: 10px 10px 25px grey;
   float: left;
@@ -17,12 +22,18 @@ body {
   background-color: lightgrey;
 }
 .container {
-  outline: 10px;
-  outline-color: black;
+  border: 2px solid black;
+  border-bottom: none;
+  padding: 25px;
 }
 a {
   color: black;
+  text-shadow: 10px 10px 20px white;
 }
 p {
   text-indent: 20px;
+}
+.list-unstyled {
+  text-align: left;
+  margin-left: 25px;
 }
