@@ -8,6 +8,7 @@ a {
 }
 p {
   text-indent: 20px;
+  font-size: 20px;
 }
 .col-md-12 img {
   box-shadow: 10px 10px 25px grey;
@@ -30,18 +31,19 @@ p {
   bottom: 25px;
   padding: 25px;
   background-color: lightgrey;
-
-}
 }
 .list-unstyled {
   text-align: left;
   margin-left: 25px;
+  font-size: 20px;
 }
-.bg-info {
-  padding: 5px;
+.bg {
+  padding: 10px;
+  background-color: white;
 }
 .divbg {
   background-image: url(../img/back.jpg);
+  background-repeat: repeat;
   top: 0;
   left: 0;
   bottom: 0;
@@ -57,6 +59,7 @@ p {
 }
 #welcome {
   text-align: center;
-  font-size: 40px;
+  font-size: 45px;
   text-shadow: 10px 10px 20px grey;
+  margin-right: 90px;
 }
