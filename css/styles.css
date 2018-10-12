@@ -10,20 +10,11 @@ p {
   text-indent: 20px;
   font-size: 20px;
 }
-.col-md-12 img {
-  box-shadow: 10px 10px 25px grey;
-  float: left;
-  margin-right: 20px;
-}
 .jumbotron{
   background-image: url(../img/header.jpg);
   height: 250px;
-}
-.jumbotron h1 {
-  color: black;
-  text-shadow: 20px 10px 30px grey;
-  font-size: 60px;
-  font-family: monospace;
+  box-shadow: 0px 0px 5px 5px lightgrey inset;
+
 }
 .container {
   border: 2px solid black;
@@ -33,13 +24,16 @@ p {
   background-color: lightgrey;
 }
 .list-unstyled {
-  text-align: left;
-  margin-left: 25px;
+  text-align: center;
+  margin-left: 100px;
   font-size: 20px;
+  margin-right: 100px;
 }
 .bg {
   padding: 10px;
   background-color: white;
+  box-shadow: 0px 0px 5px 5px lightgrey inset;
+  margin-top: 15px;
 }
 .divbg {
   background-image: url(../img/back.jpg);
@@ -61,5 +55,14 @@ p {
   text-align: center;
   font-size: 45px;
   text-shadow: 10px 10px 20px grey;
-  margin-right: 90px;
+}
+.col-md-12 img {
+  float: left;
+  margin-right: 20px;
+}
+.jumbotron h1 {
+  color: black;
+  text-shadow: 20px 10px 30px grey;
+  font-size: 60px;
+  font-family: monospace;
 }
