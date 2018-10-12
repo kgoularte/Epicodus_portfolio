@@ -1,7 +1,13 @@
 img {
   margin: 10px;
     box-shadow: 10px 10px 25px grey;
-
+}
+a {
+  color: black;
+  text-shadow: 10px 10px 20px white;
+}
+p {
+  text-indent: 20px;
 }
 .col-md-12 img {
   box-shadow: 10px 10px 25px grey;
@@ -14,7 +20,7 @@ img {
 }
 .jumbotron h1 {
   color: black;
-  text-shadow: 20px 10px 80px white;
+  text-shadow: 20px 10px 30px grey;
   font-size: 60px;
   font-family: monospace;
 }
@@ -26,12 +32,6 @@ img {
   background-color: lightgrey;
 
 }
-a {
-  color: black;
-  text-shadow: 10px 10px 20px white;
-}
-p {
-  text-indent: 20px;
 }
 .list-unstyled {
   text-align: left;
@@ -42,7 +42,6 @@ p {
 }
 .divbg {
   background-image: url(../img/back.jpg);
-  opacity: 0.3;
   top: 0;
   left: 0;
   bottom: 0;
@@ -55,4 +54,9 @@ p {
 }
 #insta {
   box-shadow: 5px 5px 10px white;
+}
+#welcome {
+  text-align: center;
+  font-size: 40px;
+  text-shadow: 10px 10px 20px grey;
 }
