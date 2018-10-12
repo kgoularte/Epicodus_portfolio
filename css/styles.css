@@ -23,3 +23,6 @@ body {
 a {
   color: black;
 }
+p {
+  text-indent: 20px;
+}
